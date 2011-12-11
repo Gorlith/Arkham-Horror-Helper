@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/charSheetLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<SeekBar android:id="@+id/skillSlider_3" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:max="3"
+			android:progress="0" android:thumb="@drawable/skill_slider"
+			android:paddingLeft="10dp" android:paddingRight="10dp"
+			android:progressDrawable="@drawable/seekbar_background"
+			android:layout_marginBottom="5dp" android:layout_marginLeft="58dp"
+			android:layout_marginRight="30dp" />
+		<SeekBar android:max="3" android:paddingLeft="10dp"
+			android:thumb="@drawable/skill_slider" android:id="@+id/skillSlider_2"
+			android:paddingRight="10dp" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:progress="0"
+			android:progressDrawable="@drawable/seekbar_background"
+			android:layout_above="@+id/skillSlider_3" android:layout_alignLeft="@+id/skillSlider_3"
+			android:layout_marginLeft="32dp" />
+		<SeekBar android:max="3" android:paddingLeft="10dp"
+			android:thumb="@drawable/skill_slider" android:id="@+id/skillSlider_1"
+			android:paddingRight="10dp" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:progress="0"
+			android:progressDrawable="@drawable/seekbar_background"
+			android:layout_above="@+id/skillSlider_2" android:layout_alignLeft="@+id/skillSlider_3"
+			android:layout_marginRight="30dp" />
+		<TextView android:id="@+id/tvSanity"  
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:textColor="#0049E1"   
+		android:textSize="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="109dp" 
+		android:layout_width="wrap_content" 
+		android:layout_height="45dp"
+		android:layout_alignParentRight="true"></TextView>
+		<TextView android:id="@+id/tvStamina" 
+		android:textColor="#C33A00" 
+		android:layout_width="wrap_content" 
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:layout_below="@+id/btnSanitySub" 
+		android:layout_alignLeft="@+id/tvSanity" 
+		android:layout_height="45dp"
+		android:layout_marginTop="22dp"></TextView>
+		<Button android:id="@+id/btnSanitySub"  
+		android:text="@string/minus"
+		android:textSize="12dp"  
+		android:layout_height="30dp"
+		android:layout_width="30dp"  
+		android:layout_toLeftOf="@+id/tvSanity" 
+		android:layout_alignTop="@+id/tvSanity"
+		android:layout_marginRight="65dp"> </Button>
+		<Button android:id="@+id/btnSanityAdd"  
+		android:text="@string/plus"
+		android:textSize="12dp"  
+		android:layout_height="30dp"
+		android:layout_width="30dp" 
+		android:layout_toLeftOf="@+id/btnSanitySub"
+		android:layout_alignTop="@+id/tvSanity" android:gravity="top"></Button>
+		<Button android:id="@+id/btnStaminaSub" 
+		android:text="@string/minus"
+		android:textSize="12dp" 
+		android:layout_height="30dp" 
+		android:layout_width="30dp" 
+		android:layout_toLeftOf="@+id/tvStamina"
+		android:layout_alignTop="@+id/tvStamina"
+		android:layout_marginRight="65dp" ></Button>
+		<Button android:id="@+id/btnStaminaAdd" 
+		android:text="@string/plus"  
+		android:textSize="12dp"
+		android:layout_height="30dp" 
+		android:layout_width="30dp"
+		android:layout_toLeftOf="@+id/btnStaminaSub" 
+		android:layout_alignTop="@+id/tvStamina" ></Button>
+	</RelativeLayout>
+</LinearLayout>
