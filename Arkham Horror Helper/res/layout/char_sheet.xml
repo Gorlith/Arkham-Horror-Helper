@@ -11,7 +11,7 @@
 			android:progress="0" android:thumb="@drawable/skill_slider"
 			android:paddingLeft="10dp" android:paddingRight="10dp"
 			android:progressDrawable="@drawable/seekbar_background"
-			android:layout_marginBottom="5dp" android:layout_marginLeft="58dp"
+			android:layout_marginBottom="8dp" android:layout_marginLeft="58dp"
 			android:layout_marginRight="30dp" />
 		<SeekBar android:max="3" android:paddingLeft="10dp"
 			android:thumb="@drawable/skill_slider" android:id="@+id/skillSlider_2"
@@ -32,7 +32,7 @@
 		android:textColor="#0049E1"   
 		android:textSize="20dp"
 		android:layout_marginRight="20dp"
-		android:layout_marginTop="109dp" 
+		android:layout_marginTop="116dp" 
 		android:layout_width="wrap_content" 
 		android:layout_height="45dp"
 		android:layout_alignParentRight="true"></TextView>
