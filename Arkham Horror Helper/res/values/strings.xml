@@ -3,4 +3,9 @@
     <string name="app_name">Arkham Horror Helper</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
+    <string name="ahButton">Arkham Horror Button</string>
+    <string name="dhButton">Dunwich Horror Button</string>
+    <string name="khButton">Kingsport Horror Button</string>
+    <string name="ihButton">Innsmouth Horror Button</string>
+    <string name="ahhBanner">Arkham Horror Helper Banner</string>
 </resources>

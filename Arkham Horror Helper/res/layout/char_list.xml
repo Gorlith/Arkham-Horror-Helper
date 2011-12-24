@@ -3,27 +3,26 @@
     android:id="@+id/charListLayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/menu_background"
     android:orientation="vertical" >
-
+
     <ImageView
         android:id="@+id/tvBanner"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@android:color/darker_gray"
+        android:contentDescription="@string/ahhBanner"
         android:gravity="center_horizontal"
         android:scaleType="fitCenter"
         android:src="@drawable/banner"
-        android:textColor="@android:color/holo_green_dark" >
+        android:textColor="@android:color/holo_green_dark" />
 
-    </ImageView>
-
     <ListView
         android:id="@+id/lvCharacters"
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1.13" >
-
+        android:layout_height="0dp"
+        android:layout_weight="1.13"
+        android:background="@drawable/menu_background" >
+        
     </ListView>
 
     <LinearLayout
@@ -32,35 +31,34 @@
         android:layout_height="50dp"
         android:background="@android:color/darker_gray"
         android:gravity="bottom" >
-
+
         <ImageButton
             android:id="@+id/ahButton"
-            android:layout_width="45dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:contentDescription="@string/ahButton"
             android:src="@drawable/ah_icon" />
-
+
         <ImageButton
             android:id="@+id/dhButton"
-            android:layout_width="45dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:contentDescription="@string/dhButton"
             android:src="@drawable/dh_icon" />
-
+
         <ImageButton
             android:id="@+id/khButton"
-            android:layout_width="45dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:contentDescription="@string/khButton"
             android:src="@drawable/kh_icon" />
-
+
         <ImageButton
             android:id="@+id/ihButton"
-            android:layout_width="45dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:contentDescription="@string/ihButton"
             android:src="@drawable/ih_icon" />
-
     </LinearLayout>
 
 </LinearLayout>
