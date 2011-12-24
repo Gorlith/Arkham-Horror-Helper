@@ -16,7 +16,39 @@ public class MyApp extends Application {
 		
 		ahInvestigators();
 	}
-
+	
+	public static void ihInvestigators() {
+		INVESTIGATORS.clear();
+		INVESTIGATORS.add(new Investigator("Agnes Baker", "the Waitress", 5, 5, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Akachi Onyele", "the Shaman", 7, 3, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Finn Edwards", "the Bootlegger", 4, 6, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("George Barnaby", "the Lawyer", 7, 3, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Hank Samson", "the Farmhand", 5, 6, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Minh Thi Phan", "the Secretary", 6, 4, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Norman Withers", "the Astronomer", 6, 4, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Patrice Hathaway", "the Violinist", 5, 5, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Roland Banks", "the Fed", 4, 6, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Silas Marsh", "the Sailor", 4, 6, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Skids O'Toole", "the Ex-Convict", 3, 7, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Tommy Muldoon", "the Rookie Cop", 5, 5, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Trish Scarborough", "the Spy", 6, 4, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Ursula Downs", "the Explorer", 5, 5, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("William Yorick", "the Gravedigger", 4, 6, "Innsmouth Horror"));
+		INVESTIGATORS.add(new Investigator("Zoey Samaras", "the Chef", 3, 7, "Innsmouth Horror"));
+	}
+	
+	public static void khInvestigators() {
+		INVESTIGATORS.clear();
+		INVESTIGATORS.add(new Investigator("Charlie Kane", "the Politician", 4, 6, "Kingsport Horror"));
+		INVESTIGATORS.add(new Investigator("Daisy Walker", "the Librarian", 5, 5, "Kingsport Horror"));
+		//INVESTIGATORS.add(new Investigator("Lily Chen", "the Martial Artist", 4, 6, "Kingsport Horror"));
+		INVESTIGATORS.add(new Investigator("Lola Hayes", "the Actress", 6, 4, "Kingsport Horror"));
+		INVESTIGATORS.add(new Investigator("Luke Robinson", "the Dreamer", 7, 3, "Kingsport Horror"));
+		INVESTIGATORS.add(new Investigator("Tony Morgan", "the Bounty Hunter", 3, 7, "Kingsport Horror"));
+		INVESTIGATORS.add(new Investigator("Wendy Adams", "the Urchin", 4, 4, "Kingsport Horror"));
+		
+	}
+	
 	public static void dhInvestigators() {
 		//Dunwich Horror Expansion Investigators
 		INVESTIGATORS.clear();

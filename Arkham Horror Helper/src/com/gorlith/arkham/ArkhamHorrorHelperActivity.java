@@ -12,7 +12,7 @@ import android.widget.ListView;
 
 public class ArkhamHorrorHelperActivity extends Activity {
 	
-	ImageButton ahButton, dhButton;
+	ImageButton ahButton, dhButton, khButton, ihButton;
 	ListView lv;
 	
 	/** Called when the activity is first created. */
@@ -44,6 +44,28 @@ public class ArkhamHorrorHelperActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				MyApp.dhInvestigators();
+				loadListView(lv);
+			}
+		});
+		
+		khButton = (ImageButton) findViewById(R.id.khButton);
+		
+		khButton.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				MyApp.khInvestigators();
+				loadListView(lv);
+			}
+		});
+		
+		ihButton = (ImageButton) findViewById(R.id.ihButton);
+		
+		ihButton.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				MyApp.ihInvestigators();
 				loadListView(lv);
 			}
 		});

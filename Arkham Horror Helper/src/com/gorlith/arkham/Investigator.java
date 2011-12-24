@@ -12,26 +12,18 @@ public class Investigator {
 	
 	private final String expansion;
 	
-	private final String imgName;
-	
-	public Investigator(String name, String occupation, int sanity, int stamina, String expansion, String imgName)
+	public Investigator(String name, String occupation, int sanity, int stamina, String expansion)
 	{
 		this.name = name;
 		this.occupation = occupation;
 		this.sanity = sanity;
 		this.stamina = stamina;
 		this.expansion = expansion;
-		this.imgName = imgName;
-	}
-	
-	public Investigator(String name, String occupation, int sanity, int stamina, String expansion)
-	{
-		this(name, occupation, sanity, stamina, expansion, name.toLowerCase().replace(' ', '_'));
 	}
 	
 	public Investigator(String name, String occupation, int sanity, int stamina)
 	{
-		this(name, occupation, sanity, stamina, "Arkham Horror", name.toLowerCase().replace(' ', '_'));
+		this(name, occupation, sanity, stamina, "Arkham Horror");
 	}
 	@Override
 	public String toString() {
@@ -65,6 +57,6 @@ public class Investigator {
 	
 	public String getImgName()
 	{
-		return this.imgName;
+		return this.name.replace(' ', '_').replace('\'', '_').toLowerCase();
 	}
 }

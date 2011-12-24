@@ -46,27 +46,21 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/dh_icon" />
-
+
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/khButton"
             android:layout_width="45dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/kh_icon" />
-
+
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/ihButton"
             android:layout_width="45dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ih_icon" />
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="45dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/mh_icon" />
     </LinearLayout>
 
 </LinearLayout>
